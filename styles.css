@@ -1,0 +1,117 @@
+		body{
+			font-family:Verdana, sans-serif;
+			font-size:100%;
+		}
+		h1{
+			font-family:Marko One, Georgia, serif;
+			font-size:1.5em
+		}
+		p,dl{
+			font-size:0.875em;
+		}
+		dt{
+			font-weight:bold;
+		}
+		strong{
+			font-style:oblique;
+		}
+		h1{
+			font: 1.5em, Marko One, Georgia, serif;
+		}
+
+		div > dl > dt > strong {
+			color:maroon;
+		}
+
+		/*#info > p {
+			color:teal;
+		}*/
+
+		#info > p::first-line{
+			font-style: italic;
+			color:gray;
+		}
+
+		.price{
+			font-family: Georgia, serif;
+			font-style: italic;
+			color: gray;
+		}
+
+		.label{
+			font-weight: bold;
+			font-style: normal;
+			font-variant: small-caps;
+		}
+		.warning{
+			font-size:x-small;
+			color: red;
+		}
+
+		body{
+			font-family: Georgia;
+			line-height: 1.75em;
+			background: #d2dc9d;  
+			background-image: url('images/ladelicia.png');
+			background-attachment: fixed;
+    		background-position: center;
+    		background-repeat: no-repeat;
+    		margin-right: 15%;
+    		margin-left: 15%;
+		}
+
+		h1{
+			color:purple;
+		}
+
+		h1,h2, #info {
+			text-align: center;
+		}
+
+		h2{
+			text-transform: uppercase;
+			letter-spacing: 0.5em;
+			color:purple;
+		}
+
+		h2 + p{
+			text-align: center;
+			font-style: italic;
+		}
+
+		dt{
+			color:sienna;
+		}
+
+		h1{
+			text-shadow: .1em .1em .2em lightslategray;     
+		}
+
+		ul{
+			list-style-type:none;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		a:link{
+			text-decoration: none;
+			color:#939;
+		}
+		a:visited{
+			color:#937393;
+		}
+		a:hover{
+			color:#c700f2;
+			background: white;
+		}
+
+		#header {
+    		opacity: .5;
+    		background: white;
+    		z-index:1;
+    		background-image: url(images/ladelicia-sombra.png);
+    		background-repeat: no-repeat;
+    		background-position: right 10% bottom;
+    		padding: 5%;
+
+		}
